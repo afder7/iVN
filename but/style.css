@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+button {
+    font-family: 'Ubuntu', sans-serif;
+}
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(122, 136, 255, 1);
+    text-align: center;
+}
+.head h1 {
+    font-size: 50px;
+    margin: 0;
+    margin-left: 7px;
+}
+.head p {
+    margin-top: 0;
+}
+.menu {
+    font-size: 20px;
+}
+.menu__list {
+    display: flex;
+    list-style: none;
+}
+.menu__list-item {
+    margin-left: 45px;
+}
+.menu__list-item:hover {
+    border-bottom: 1px solid #fff;
+}
+.menu__list-a {
+    text-decoration: none;
+}
+.reg {
+  box-shadow: 5px 5px 5px rgb(172, 172, 172);
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  height: 55px;
+  text-align:center;
+  border: 2px;
+  border-radius: 7px;
+  border-color: rgba(122, 136, 255, 1);
+  background-size: 300% 100%;
+  background: linear-gradient(90deg, rgba(58, 228, 223, 1), rgba(122, 136, 255, 1));
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.reg:hover {
+  background-position: 100% 0;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.reg:focus {
+  outline: none;
+}
+.login {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(122, 136, 255, 1);
+    cursor: pointer;
+    margin-top: 10px;
+    height: 55px;
+    text-align:center;
+    border: 2px;
+    border-radius: 7px;
+    border-color: #fff;
+    background-color: #fff;
+    background-size: 300% 100%;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.login:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.login:focus {
+    outline: none;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.item {
+    margin-top: 30px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.mb {
+    margin-left: 96px;
+}
+.ghost {
+    animation: float 3s ease-out infinite;
+}
+  
+@keyframes float {
+    50% {
+       transform: translate(0, 20px);
+    }
+}
+.shadowFrame {
+    width: 130px;
+    margin-top: 15px;
+    margin-left: 133px;
+}
+.shadow {
+    animation: shrink 3s ease-out infinite;
+    transform-origin: center center;
+}
+.ellipse {
+      transform-origin: center center;
+}
+  
+@keyframes shrink {
+    0% {
+      width: 90%;
+      margin: 0 5%;
+    }
+    50% {
+      width: 60%;
+      margin: 0 18%;
+    }
+    100% {
+      width: 90%;
+      margin: 0 5%;
+    }
+}
